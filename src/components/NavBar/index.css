@@ -1,0 +1,47 @@
+.nav-bar {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:  40%;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.nav-right > button {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    background: none;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}

@@ -1,0 +1,28 @@
+.footer-container {
+
+    width: 100%;
+    /* padding-top: 0rem; */
+    position: relative;
+    /* background-color: red; */
+   
+}
+.footer-image-container{
+    /* height: 30rem; */
+}
+
+.footer-image {
+    height: 100%;
+}
+
+
+.button-wrapper {
+
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+}
+
+.end-icon {
+    margin-left: 10px;
+}

@@ -1,0 +1,57 @@
+.art-card-container {
+    background: rgba(17, 12, 0, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 380px;
+    height: 30rem;
+    border-top-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.art-card-container:hover {
+  background-color: #463201;
+}
+
+.art-card-image-wrapper {
+    width: 100%;
+    height: 60%;
+}
+
+.art-card-image {
+    height: 100%;
+    width: 100%;
+}
+
+.art-card-info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    padding: 0px 17px;
+    /* background-color: black; */
+}
+
+.art-card-title {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.art-card-desc {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}

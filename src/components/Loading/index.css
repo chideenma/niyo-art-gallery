@@ -1,0 +1,10 @@
+.loading-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading {
+    color: white;
+    font-size: 5rem;
+}

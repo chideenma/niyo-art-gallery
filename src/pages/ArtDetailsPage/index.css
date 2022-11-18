@@ -1,0 +1,114 @@
+.container {
+    background-image: url('../../assets/bg-image.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+
+}
+
+.icons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.icons {
+   font-size: 2rem; 
+   cursor: pointer;
+}
+
+.section-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-container {
+
+    width: 50%;
+
+}
+.desc {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 30rem;
+}
+.image-wrapper {
+    width: 25rem;
+    height: 30rem;
+}
+
+.curved-borders {
+    border-top-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+}
+
+.section-wrapper-image {
+    height: 100%;
+    width: 100%;
+}
+
+.art-title {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 50px;
+    /* identical to box height, or 156% */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+}
+
+.art-history-container {
+    white-space: initial;
+    text-overflow: ellipsis;
+    /* background-color: red; */
+    height: 60%;
+    overflow-wrap: break-word;
+    width: 100%;
+    overflow: scroll;
+}
+
+.art-history {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.buttons {
+
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+}
+
+.buttons > button {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}

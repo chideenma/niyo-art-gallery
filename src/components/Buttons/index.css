@@ -1,0 +1,34 @@
+.login-button {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 2.8rem;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FBAF00;
+    box-shadow: 6px 6px 0px 0px #FFFFFF;
+    -webkit-box-shadow: 6px 6px 0px 0px #FFFFFF;
+    -moz-box-shadow: 6px 6px 0px 0px #FFFFFF;
+    cursor: pointer;
+    display: flex;
+}
+.explore-button {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    color: #251A00;
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 0px 0px #FBAF00;
+    -webkit-box-shadow: 6px 6px 0px 0px #FBAF00;
+    -moz-box-shadow: 6px 6px 0px 0px #FBAF00;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+

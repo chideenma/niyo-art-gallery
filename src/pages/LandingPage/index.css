@@ -1,0 +1,133 @@
+.app {
+  background: rgba(17, 12, 0, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hero-container {
+  background-image: url("../../assets/lines2.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 40vw 100vh;
+  background-color: #110c00 !important;
+  background-color: red;
+  background-position: right;
+}
+
+.art-stats {
+  display: flex;
+  padding: 4rem 0rem;
+  color: #ffffff;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.art-stats-left {
+  padding: 30px;
+}
+.art-stats-left > h1 {
+  font-size: 68px;
+  line-height: 72px;
+  font-weight: 700;
+  padding-bottom: 45px;
+}
+.art-stats-left > h1 > span {
+  color: #fbaf00;
+}
+
+.art-stats-left > p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 68px;
+}
+
+.art-stats-img {
+  padding: 30px;
+}
+
+.svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 26px;
+  padding-left: 200px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #1A1405 !important;
+}
+
+.info-left {
+  color: #ffffff;
+  padding: 20px;
+}
+.info-left > h2 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 7px;
+  line-height: 72px;
+}
+
+.info-left > p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.info-right {
+  margin: 268px;
+  width: 45%;
+  position: relative;
+}
+
+.info-right > input {
+  padding: 1rem;
+  border-radius: 51px;
+  border: none;
+  background-color: #1a1405;
+  width: 100%;
+  color: #fbaf00;
+  font-size: 1.3rem;
+  padding-left: 2.5rem;
+}
+
+.info-right > input::placeholder {
+  color: #fbaf00;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+  padding: 2px;
+  position: absolute;
+  top: 50%;
+  left: 0.7rem;
+  transform: translateY(-50%);
+}
+
+.section-wrapper {
+  position: relative;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 48px;
+  overflow: hidden;
+
+  padding: 0rem 0rem;
+}
+
+.gallery-content {
+  color: #ffffff;
+}
+
